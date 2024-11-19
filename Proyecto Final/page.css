@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #e0e0e0; /* Texto claro para contraste con fondo negro */
+    background-color: #000; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #fff; /* Barra de navegación blanca */
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #000; /* Texto negro para contraste */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Títulos en blanco */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #a29bfe; /* Púrpura claro */
+}
+
+h3 {
+    font-size: 22px;
+    color: #6c5ce7; /* Púrpura oscuro */
+}
+
+p {
+    color: #dcdde1; /* Texto gris claro */
+    margin-bottom: 20px;
+}
+
+button {
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: #6c5ce7; /* Botones morados */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #a29bfe; /* Morado más claro */
+    transform: translateY(-2px);
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #1e272e; /* Fondo oscuro para contenedores */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.product h3 {
+    color: #fff;
+}
+
+.product p {
+    color: #bdc3c7; /* Gris claro */
+}
+
+.product {
+    background-color: #2c3e50; /* Fondo oscuro para productos */
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.15);
+}
+
+.product-image {
+    margin-top: 20px; /* Ajusta el valor según sea necesario */
+    max-width: 100%; /* Asegura que las imágenes se adapten al tamaño del contenedor */
+    height: auto;
+    border-radius: 5px; /* Opcional: da un borde redondeado a las imágenes */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #1e272e;
+    color: white;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #6c5ce7;
+    outline: none;
+}
+
+.cart-item {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.cart-item p {
+    color: #dcdde1;
+}
+.product-list{
+text-align: center;
+}
